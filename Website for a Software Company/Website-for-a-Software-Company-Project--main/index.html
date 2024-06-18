@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Website for a Software Company</title>
+    </head>
+    <style type="text/css">
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        header 
+        {
+            width: 100%;
+            height: 100vh;
+            background: url(bg1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav
+        {
+            width: 40x;
+            height: 55px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: left;
+        }
+        nav ul
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+        }
+        nav ul li
+        {
+            margin-right: 40px;
+            font-family: arial;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+        }
+        .btn
+        {
+            width: 150px;
+            height: 50px;
+            background-color: #44ce6f;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+            font-family: arial;
+            font-weight: bold;
+            transition: 0.5s;
+            color: #fff;
+        }
+        .btn:hover
+        {
+             background-color: #fff;
+             color: #44ce64;
+        }
+        .container
+        {
+            width: 1200px;
+            height: 100vh;
+            margin: auto;
+        }
+        .container h1
+        {
+            font-family: arial;
+            font-size: 55px;
+            font-weight: bold;
+            padding-top: 175px;
+            color: #fff;
+        }
+        .container p
+        {
+            color: #fff;
+            font-family: arial;
+            font-size: 16px;
+            line-height: 25px;
+            font-weight: bold;
+            padding-top: 20px;
+        }
+    </style>
+    <body>
+        <header>
+            <nav>
+                <img src="logo1.svg">
+                <ul>
+                    <li> Home </li>
+                    <li> About </li>
+                    <li> Page </li>
+                    <li> Services </li>
+                    <li> Careers </li>
+                    <li><button class="btn">Contact Now</button></li>
+                </ul>
+            </nav>
+            <div class="container">
+                <h1>Software Website for<br> Techy Software</h1>
+                <p> Navigate the challenges and capitalize on the opportunities <br> ahead to achieve greater performance, scale and competitiveness</p>
+                <button class="btn">Getting Placed</button>
+            </div>
+        </header>
+    </body>
+</html>
